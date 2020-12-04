@@ -1,0 +1,15 @@
+String {
+    display: inline;
+}
+
+SP {
+    display: inline;
+}
+
+TextBlock {
+    display: block;
+}
+
+TextLine {
+    display: block;
+}
