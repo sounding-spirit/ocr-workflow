@@ -8,7 +8,7 @@
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="/">
-        <xsl:processing-instruction name="xml-stylesheet">href="https://raw.githubusercontent.com/sounding-spirit/ocr-correction/master/alto-style.css"</xsl:processing-instruction>
+        <xsl:processing-instruction name="xml-stylesheet">href="https://raw.githubusercontent.com/sounding-spirit/ocr-workflow/main/scripts/alto-style.css"</xsl:processing-instruction>
         <xsl:apply-templates select="node()|@*"/>
     </xsl:template>
 
